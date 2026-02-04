@@ -1,0 +1,64 @@
+.tieude1{
+    background-color: black;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    position: sticky;
+    z-index: 999;
+    top: 0;
+    
+ 
+  
+}
+.tieude1 h3{
+    color: white;
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+    padding-top: 10px;
+    margin-left: 50px;
+   
+}
+.tieude1 ul{
+list-style: none;
+display: flex;
+margin-left: 350px;
+text-transform: uppercase;
+
+}
+.tieude1 ul li{
+    padding: 10px 30px;
+    position: relative;
+}
+.tieude1 ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    transition: all 0.3s;
+}
+.tieude1 ul li a:hover{
+    color: aqua;
+    background: darkgreen;
+    padding: 1rem 1rem;
+    
+}
+
+.label-con{
+    display: none;
+}
+.tieude1 ul li:hover .label-con{
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: black;
+}
+.tieude1 ul li:hover .label-con ul{
+    display: block;
+    margin: 10px;    
+}
+.tieude1 ul li:hover .label-con ul li{
+    width: 100%;
+    padding: 10px;
+
+}
